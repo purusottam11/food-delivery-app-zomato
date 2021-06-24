@@ -16,7 +16,7 @@ import java.util.List;
 @Document
 public class Restaurant {
     @Id
-    private String id;
+    private String restaurantId;
     private String name;
     private String address;
     @Size(min = 6,max = 6)
